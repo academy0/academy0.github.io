@@ -1,0 +1,43 @@
+- title: Class 12
+  subjects:
+    - name: Mathematics
+      url: /courses/class-12-mathematics
+    - name: Physics
+      url: /courses/class-12-physics
+    - name: Chemistry
+      url: /courses/class-12-chemistry
+    - name: Biology
+      url: /courses/class-12-biology
+
+- title: Class 11
+  subjects:
+    - name: Mathematics
+      url: /courses/class-11-mathematics
+    - name: Physics
+      url: /courses/class-11-physics
+    - name: Chemistry
+      url: /courses/class-11-chemistry
+    - name: Biology
+      url: /courses/class-11-biology
+
+- title: Class 10
+  subjects:
+    - name: Mathematics
+      url: /courses/class-10-mathematics
+    - name: Physics
+      url: /courses/class-10-physics
+    - name: Chemistry
+      url: /courses/class-10-chemistry
+    - name: Biology
+      url: /courses/class-10-biology
+
+- title: Class 9
+  subjects:
+    - name: Mathematics
+      url: /courses/class-9-mathematics
+    - name: Physics
+      url: /courses/class-9-physics
+    - name: Chemistry
+      url: /courses/class-9-chemistry
+    - name: Biology
+      url: /courses/class-9-biology

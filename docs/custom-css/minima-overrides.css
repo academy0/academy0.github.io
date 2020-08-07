@@ -1,0 +1,33 @@
+body {
+  background-color: #faf0db;
+  font-family: "Bitter", serif;
+  color: #222222;
+  font-weight: 500;
+  /* text-shadow:  0px 1px 1px #f5f5dc; */
+}
+
+.site-title {
+  font-weight: 500;
+}
+
+.MathJax {
+  font-size: 135% !important;
+  color: #002366;
+}
+
+pre,
+code {
+  background-color: #f6e2bb;
+}
+
+.highlighter-rouge .highlight {
+  background-color: #f6e2bb;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
