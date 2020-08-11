@@ -3,9 +3,13 @@ body {
   font-family: "Bitter", serif;
   color: #222222;
   font-weight: 500;
+  text-align: justify;
   /* text-shadow:  0px 1px 1px #f5f5dc; */
 }
 
+.maths-text {
+  font-family: "Crimson Pro", serif;
+}
 .site-title {
   font-weight: 500;
 }
@@ -30,4 +34,41 @@ h4,
 h5,
 h6 {
   font-weight: 600;
+}
+
+.portrait-image img {
+  margin: 20px auto;
+  display: block;
+  width: 200px;
+  box-shadow: 0 0 15px black;
+  border: 7px solid white;
+  border-radius: 5px;
+}
+
+.portrait-image figcaption {
+  display: block;
+  text-align: center;
+}
+
+/* definitions */
+h3 {
+  text-decoration: underline;
+}
+h5 {
+  font-size: 18px;
+  background-color: #181007;
+  text-indent: 10px;
+  color: white;
+  font-weight: 500;
+
+}
+
+h6 {
+  font-size: 16px;
+  background-color: #e7cbac;
+  margin-top: -15px;
+  font-weight: 500;
+  text-indent: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
