@@ -15,7 +15,7 @@ body {
 }
 
 .MathJax {
-  font-size: 135% !important;
+  font-size: 115% !important;
   color: #002366;
 }
 
@@ -27,6 +27,7 @@ code {
 .highlighter-rouge .highlight {
   background-color: #f6e2bb;
 }
+
 h1,
 h2,
 h3,
@@ -54,13 +55,13 @@ h6 {
 h3 {
   text-decoration: underline;
 }
+
 h5 {
   font-size: 18px;
   background-color: #181007;
   text-indent: 10px;
   color: white;
   font-weight: 500;
-
 }
 
 h6 {
@@ -71,4 +72,33 @@ h6 {
   text-indent: 10px;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+
+.example-section-marker {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+  margin-bottom: 15px;
+}
+
+strong.illustration, strong.example {
+  margin-right: 10px;
+  color: #265785;
+}
+
+strong.example {
+  color: #571957;
+}
+
+h1, h2, h3 {
+  color: #071a1a;
+}
+
+table tr:nth-child(even) {
+  background-color: transparent; 
 }
