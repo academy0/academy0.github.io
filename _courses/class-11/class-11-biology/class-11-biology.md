@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: course
 title:  "Biology"
 subtitle: "Class 11"
 date:   2020-08-04

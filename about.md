@@ -4,10 +4,10 @@ title: "Sets"
 subtitle: "Chapter 1"
 date: 2020-08-04
 categories: courses
-permalink: /courses/class-11-mathematics/:title:output_ext
+# permalink: /courses/class-11-mathematics/:title:output_ext
 ---
 
-## 1 Introduction
+## 1&nbsp;&nbsp;&nbsp;&nbsp;Introduction
 
 Set theory is a fundamental theory in mathematics. It is used in almost every branch of mathematics. It is created by German mathematician [Georg Cantor (1845-1918)][georg-cantor].
 
@@ -16,7 +16,7 @@ Set theory is a fundamental theory in mathematics. It is used in almost every br
   <figcaption>Georg Cantor (1845-1918)</figcaption>
 </figure>
 
-## 2 Sets and their Representations
+## 2&nbsp;&nbsp;&nbsp;&nbsp;Sets and their Representations
 
 ### Sets
 
@@ -153,7 +153,7 @@ $$\{x \colon\;x=\frac{n}{n+1},\text{ where n is a natural number and }1 \leq n \
 |**(iv)** $$\;\{3,-3\}$$|**(b)** $$\;\{x \colon\; x \text{ is an integer and } x^2-9=0\}$$|
 
 
-## 3 The Empty Set
+## 3&nbsp;&nbsp;&nbsp;&nbsp;The Empty Set
 
 ##### **Definition**
 
@@ -174,22 +174,22 @@ We observe that a student cannot study simultaneously in both Classes X and XI. 
 <strong class="illustration">Illustration 17</strong>Let $$B=\{x \colon\;1 \lt x \lt 2,\;x\text{ is a natural number}\}$$. Then $$A$$ is the _empty set_, because there is no natural number between $$1$$ and $$2$$.
 
 
-## 4 Finite and Infinite Sets
+## 4&nbsp;&nbsp;&nbsp;&nbsp;Finite and Infinite Sets
 
-## 5 Equal Sets
+## 5&nbsp;&nbsp;&nbsp;&nbsp;Equal Sets
 
-## 6 Subsets
+## 6&nbsp;&nbsp;&nbsp;&nbsp;Subsets
 
-## 7 Power Set
+## 7&nbsp;&nbsp;&nbsp;&nbsp;Power Set
 
-## 8 Universal Set
+## 8&nbsp;&nbsp;&nbsp;&nbsp;Universal Set
 
-## 9 Venn Diagram
+## 9&nbsp;&nbsp;&nbsp;&nbsp;Venn Diagram
 
-## 10 Operations of a Set
+## 10&nbsp;&nbsp;&nbsp;&nbsp;Operations of a Set
 
-## 11 Complement of a Set
+## 11&nbsp;&nbsp;&nbsp;&nbsp;Complement of a Set
 
-## 12 Practical Problems on Union and Intersection of Two Sets
+## 12&nbsp;&nbsp;&nbsp;&nbsp;Practical Problems on Union and Intersection of Two Sets
 
 [georg-cantor]: https://en.wikipedia.org/wiki/Georg_Cantor

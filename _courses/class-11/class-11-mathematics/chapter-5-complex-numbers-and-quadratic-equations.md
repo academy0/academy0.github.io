@@ -1,5 +1,5 @@
 ---
-layout: chapter-page
+layout: chapter
 title:  "Complex Numbers and Quadratic Equations"
 subtitle: "Chapter 5"
 date:   2020-08-04

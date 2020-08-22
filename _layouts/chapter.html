@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<article class="chapter" itemscope itemtype="http://schema.org/Chapter">
+  <header class="chapter-header">
+    <h6 class="course-class text-muted">{{page.class | escape}}</h6>
+    <h1 class="chapter-title" itemprop="name headline">{{ page.title | escape }}</h1>
+    <h6 class="chapter-subtitle text-muted">{{page.subtitle | escape}}</h6>
+  </header>
+  <hr />
+  <div id="section-nav"></div>
+  
+  <div class="chapter-content" itemprop="articleBody">
+      {{ content }}
+    </div>    
+
+  </div>
+
+  <script type="text/javascript">
+    const sectionsEl = document.querySelector("#section-nav");
+    let html = "";
+    document.querySelectorAll("h2").forEach((el) => {
+      let text = el.innerHTML.substring(el.innerHTML.indexOf(" "));
+      html += `<div><a href="#${el.id}">${text}</a></div>`;
+    });
+
+    sectionsEl.innerHTML = html;
+  </script>
+</article>

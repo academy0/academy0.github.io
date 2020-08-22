@@ -1,0 +1,29 @@
+
+class: 11
+subject: Mathematics
+title: Class 11 Mathematics
+code: class-11-mathematics
+chapters:
+  - title: Sets
+    sections:
+      - Introduction
+      - Sets and their Representations
+      - The Empty Set
+      - Finite and Infinite Sets
+      - Equal Sets
+      - Subsets
+      - Power Set
+      - Universal Set
+      - Venn Diagram
+      - Operations of a Set
+      - Complement of a Set
+      - Practical Problems on Union and Intersection of Two Sets
+  - title: Relations and Functions
+    sections:
+      - Introduction
+  - title: Trigonometric Functions
+    sections:
+      - Introduction
+  - title: Principal of Mathematical Induction
+    sections:
+      - Introduction

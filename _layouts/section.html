@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<article class="chapter" itemscope itemtype="http://schema.org/Chapter">
+  <header class="chapter-header">
+    <h1 class="chapter-title" itemprop="name headline">{{ page.chapter | escape }} </h1> 
+    <h6 class="text-muted">Chapter {{page.chapter_number}}</h6>
+  </header>
+  
+  <hr />
+
+  <h2 class="chapter-section">{{page.chapter_number}}.{{page.section_number}}&nbsp;&nbsp;{{page.section | escape}}</h2>
+  <div class="chapter-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <hr />
+  <div id="section-nav">
+    <h5 class="section-nav-title">Sections</h5>
+    {% for i in (0..site.data.class_11_maths.chapters.size) %}    
+    {% assign chapter = site.data.class_11_maths.chapters[i] %}
+    {% if chapter.title == page.chapter %}
+    {% for j in (0..chapter.sections.size) %}
+    {% assign section = site.data.class_11_maths.chapters[i].sections[j] %}
+      <div><a href="/courses/{{site.data.class_11_maths.code}}/chapter-{{i| plus: 1}}/section-{{j| plus: 1}}" {% if section == page.section %}class="active"{% endif %}>{{section}}</a></div>
+    {% endfor %}  
+    {% endif %}
+    {% endfor %}
+  </div>
+  <hr />
+  <div id="chapter-nav">
+    <h5 class="chapter-nav-title">Chapters</h5>
+    {% for i in (0..site.data.class_11_maths.chapters.size) %}    
+    {% assign chapter = site.data.class_11_maths.chapters[i] %}
+    <div><a href="/courses/{{site.data.class_11_maths.code}}/chapter-{{i| plus: 1}}/section-1" {% if chapter.title == page.chapter %}class="active"{% endif %}>{{chapter.title}}</a></div>
+    {% endfor %}
+  </div>
+</article>
+<div class="focused-element"></div>
+<script>
+document.querySelectorAll(".definition,.example, ul li, .illustration").forEach(el=> 
+  el.addEventListener('click', function(e) {
+    if(e.ctrlKey){
+    document.querySelectorAll(".pink").forEach(el=> el.classList.remove("pink"));
+      this.classList.add("pink");
+    }
+}, false)); 
+</script>

@@ -1,0 +1,25 @@
+Course (has chapter list)
+    Chapter (has section list)
+        Sections (has conten)
+
+Course
+    course class
+    course subject    
+    permalink /course/chapter/1st section
+
+Chapter
+    number
+    name
+    permalink (same as /course/chapter/1 section)
+Section
+    number
+    section name
+    section content
+    permalink (/course/chapter/section)
+
+effective section 
+    course name
+    chapter name
+    chapter number
+    section name
+    section number

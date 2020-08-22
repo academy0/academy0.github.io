@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: course
 title:  "Chemistry"
 subtitle: "Class 11th"
 date:   2020-08-04

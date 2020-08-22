@@ -1,5 +1,5 @@
 ---
-layout: chapter-page
+layout: chapter
 title: "Relations and Functions"
 subtitle: "Chapter 2"
 date: 2020-08-04
