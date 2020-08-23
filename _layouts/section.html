@@ -3,13 +3,6 @@ layout: default
 ---
 
 <article class="chapter" itemscope itemtype="http://schema.org/Chapter">
-  <header class="chapter-header">
-    <h1 class="chapter-title" itemprop="name headline">{{ page.chapter | escape }} </h1> 
-    <h6 class="text-muted">Chapter {{page.chapter_number}}</h6>
-  </header>
-  
-  <hr />
-
   <h2 class="chapter-section">{{page.chapter_number}}.{{page.section_number}}&nbsp;&nbsp;{{page.section | escape}}</h2>
   <div class="chapter-content" itemprop="articleBody">
     {{ content }}
@@ -37,7 +30,6 @@ layout: default
     {% endfor %}
   </div>
 </article>
-<div class="focused-element"></div>
 <script>
 document.querySelectorAll(".definition,.example, ul li, .illustration").forEach(el=> 
   el.addEventListener('click', function(e) {

@@ -1,14 +1,12 @@
 ---
 layout: default
-permalink: /courses/:title:output_ext
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>    
-    <p class="post-meta"> {{page.subtitle | escape}}</p>
-  </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
+<article class="chapter" itemscope itemtype="http://schema.org/Chapter">
+  <div id="chapter-nav">
+    <h2 class="chapter-nav-title" style="margin-top: 30px;">Chapters</h2>
+    <div id="chapter-nav">
+      {{content}}
+    </div>
   </div>
 </article>

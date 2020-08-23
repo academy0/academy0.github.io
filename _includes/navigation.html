@@ -1,49 +1,16 @@
-<nav class="navbar container sticky-top navbar-expand-lg navbar-light" style="background-color: inherit;">
+<nav class="navbar container sticky-top navbar-expand-lg navbar-light" style="background-color: inherit">
+  <header class="chapter-header">    
+    {% if page.chapter %}
+    <h1 class="chapter-title" itemprop="name headline">{{ page.chapter | escape }}</h1>
+    {% else %}
+    <h5 class="chapter-title text-muted" itemprop="name headline">{{ page.title | escape }}</h5>    
+    {% endif %}
+    {% if page.title %}
+    
+    {% endif %} {% if page.chapter_number %}
+    <h6 class="text-muted">Chapter {{page.chapter_number}}</h6>
+    {% endif %}
+  </header>
+
   <a class="navbar-brand" href="/">{{site.title}}</a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <div class="mr-auto">    
-    </div>
-    <ul class="navbar-nav">
-      {% for item in site.data.navigation %}
-      <li class="nav-item {% if page.url == item.link %}active{% endif %}">
-        <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
-      </li>
-      {% endfor %}
-
-      <li class="nav-item dropdown">
-        <a
-          class="dropdown-toggle btn btn-outline-dark"
-          href="#"
-          id="navbarDropdown"
-          role="button"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-        >
-        {{site.data.class_11_maths.title | escape}}
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          {% for item in site.data.courses %}
-          <h6 class="dropdown-header">{{item.title}}</h6>
-          {% for sub in item.subjects %}
-          <a class="dropdown-item" href="{{ sub.url }}">{{ sub.name }}</a>
-          {% endfor %}
-          <div class="dropdown-divider"></div>
-          {% endfor %}
-        </div>
-      </li>
-    </ul>
-    </div>
 </nav>
