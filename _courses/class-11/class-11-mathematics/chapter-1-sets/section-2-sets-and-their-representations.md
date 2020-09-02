@@ -1,10 +1,9 @@
 ---
-layout: section
+layout: class-11-mathematics
 chapter: Sets
 chapter_number: 1
 section: Sets and their Representations
 section_number: 2
-categories: courses class 11 mathematics
 permalink: /courses/class-11-mathematics/chapter-1/section-2
 ---
 

@@ -1,15 +1,13 @@
 <nav class="navbar container sticky-top navbar-expand-lg navbar-light" style="background-color: inherit">
+  {% if page.chapter %}
   <header class="chapter-header">    
-    {% if page.chapter %}
     <h1 class="chapter-title" itemprop="name headline">{{ page.chapter | escape }}</h1>
-    {% else %}
-    <h5 class="chapter-title text-muted" itemprop="name headline">{{ page.title | escape }}</h5>    
-    {% endif %}
-    {% if page.title %}
-    
-    {% endif %} {% if page.chapter_number %}
     <h6 class="text-muted">Chapter {{page.chapter_number}}</h6>
-    {% endif %}
+  </header>
+  {% endif %}
+  <header class="course-header">    
+    <h1 class="course-class">{{ page.courseSubject | escape }}</h1>
+    <h6 class="course-subject">Class {{ page.courseClass | escape }}</h6>
   </header>
 
   <a class="navbar-brand" href="/">{{site.title}}</a>
